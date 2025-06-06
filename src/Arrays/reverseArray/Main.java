@@ -26,3 +26,5 @@ public class Main {
         return arr;
     }
 }
+
+// used two pointer approach
