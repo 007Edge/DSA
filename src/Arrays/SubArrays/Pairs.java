@@ -26,3 +26,4 @@ public class Pairs {
 }
 
 //      formula for printing pairs n(n-1)/2
+//      pairs
