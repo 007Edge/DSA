@@ -15,9 +15,7 @@ public class Main {
         for(int i: stock) {
             if (buyPrice < i) {
                 int profit = i-buyPrice;
-                if (maxProfit < profit) {
-                    maxProfit = profit;
-                }
+                maxProfit = Math.max(profit, maxProfit);
             }
             else {
                 buyPrice = i;
