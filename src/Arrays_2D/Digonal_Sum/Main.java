@@ -22,7 +22,7 @@ public class Main {
 
         int sum2 = 0;
         for(int i=0; i<=n; i++) {
-            if( matrix[i][i] == matrix[i][n-i] ) {     // test case => for nxn matrix where n is odd
+            if( i == n-i ) {     // test case => for nxn matrix where n is odd
                 continue;
             }
             sum2+= matrix[i][n-i];
