@@ -6,7 +6,7 @@ public class Main {
         System.out.println(result);
     }
     public static int find(int x, int n) {
-        if (n == 1) return x;
+        if (n == 0) return 1;
         return x*find(x, n-1);
     }
 }
